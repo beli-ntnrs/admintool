@@ -18,7 +18,8 @@ $app = AppFactory::create();
 $app->addErrorMiddleware(true, true, true);
 
 // Register routes
-require __DIR__ . '/../src/routes.php';
+$routes = require __DIR__ . '/../src/routes.php';
+$routes($app);
 
 // Run app
 $app->run();

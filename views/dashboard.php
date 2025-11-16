@@ -1,6 +1,6 @@
 <?php
 // Load shared navigation
-require_once __DIR__ . '/../../internal-shared/components/nav.php';
+require_once __DIR__ . '/../../shared/components/nav.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
