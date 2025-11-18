@@ -124,6 +124,32 @@ require_once __DIR__ . '/../../shared/components/nav.php';
                             </div>
                         </div>
 
+                        <!-- Data Importer -->
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card h-100 border-0 shadow-sm hover-lift">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <div class="p-2 bg-mist rounded me-3">
+                                            <svg width="32" height="32" fill="#063312" viewBox="0 0 16 16">
+                                                <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+                                                <path d="M7.646 1.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 2.707V11.5a.5.5 0 0 1-1 0V2.707L5.354 4.854a.5.5 0 1 1-.708-.708l3-3z"/>
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h5 class="mb-0">Data Importer</h5>
+                                            <small class="text-stone">CSV to Notion</small>
+                                        </div>
+                                    </div>
+                                    <p class="text-stone small">
+                                        Import CSV files into Notion databases with intelligent field mapping and background processing.
+                                    </p>
+                                    <a href="http://localhost:8002" class="btn btn-dark-green btn-sm w-100" target="_blank">
+                                        Open App
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
                         <!-- Placeholder for future apps -->
                         <div class="col-md-6 col-lg-4">
                             <div class="card h-100 border-0 shadow-sm bg-veil">
