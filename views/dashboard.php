@@ -117,8 +117,8 @@ require_once __DIR__ . '/../../shared/components/nav.php';
                                     <p class="text-stone small">
                                         Browse all available UI components, colors, typography, and design patterns.
                                     </p>
-                                    <a href="http://localhost:8001" class="btn btn-dark-green btn-sm w-100" target="_blank">
-                                        Open App
+                                    <a href="https://github.com/beli-ntnrs/design-system" class="btn btn-dark-green btn-sm w-100" target="_blank">
+                                        View on GitHub
                                     </a>
                                 </div>
                             </div>
@@ -143,8 +143,8 @@ require_once __DIR__ . '/../../shared/components/nav.php';
                                     <p class="text-stone small">
                                         Import CSV files into Notion databases with intelligent field mapping and background processing.
                                     </p>
-                                    <a href="http://localhost:8002" class="btn btn-dark-green btn-sm w-100" target="_blank">
-                                        Open App
+                                    <a href="#" class="btn btn-dark-green btn-sm w-100" disabled>
+                                        Coming Soon
                                     </a>
                                 </div>
                             </div>
