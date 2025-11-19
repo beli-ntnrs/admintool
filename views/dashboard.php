@@ -8,7 +8,8 @@ require_once __DIR__ . '/../../shared/components/nav.php';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notioneers Admintool</title>
-    <link href="/css/theme.css" rel="stylesheet">
+    <!-- Notioneers Design System (Bootstrap 5 + Brand Colors) -->
+    <link rel="stylesheet" href="../../shared/components/design-system/css/theme.css">
 </head>
 <body>
     <?php renderInternalNav('Admintool'); ?>
@@ -246,6 +247,7 @@ require_once __DIR__ . '/../../shared/components/nav.php';
         }
     </style>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap JS (from Design System's Bootstrap) -->
+    <script src="../../shared/components/design-system/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

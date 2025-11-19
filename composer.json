@@ -14,7 +14,10 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "App\\": "src/",
+            "Notioneers\\Admintool\\": "src/",
+            "Notioneers\\Shared\\Notion\\": "../shared/components/notion-api/",
+            "Notioneers\\Shared\\": "../shared/components/"
         }
     },
     "autoload-dev": {
